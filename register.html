@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="styles/register.css">
+<link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+      <img src="images/logo.jpeg" alt="Logo" class="logo">
+      <h1>Friendship On Wheels</h1>
+      <nav class="menu">
+      <!-- link the menu options to respective html pages -->
+      <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+          <!-- Dropdown menu for Login -->
+          <div class="dropdown">
+          <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+          <div class="dropdown-content">
+              <a href="register.html">Register</a>
+              <a href="Login.html">Login</a>
+              <a href="Accounts.html">Profile</a>
+          </div>
+          </div>
+      </ul>
+      </nav>
+  </div>
+
+<div class = main-content>
+    <div class="register_form_body">
+    <form method="post" class="registration-form" action="/register">
+
+        <h2>Register Now</h2>
+
+        <div class = "same_line_fields">
+
+            <label for="firstName"> First* </label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName"> Last* </label>
+            <input type="text" id="lastName" name="lastName" required>
+            
+            <label for="pronouns"> Pronouns </label>
+            <input type="text" id="pronouns" name="pronouns">
+        
+        </div>
+        <div class = "same_line_fields">
+
+          <label for="dob"> Birthday* </label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender"> Gender </label>
+        <select id="gender" name="gender">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+            <option value="other"> Other </option>
+        </select>
+
+        </div>
+
+        <div class = "same_line_fields">
+
+            <label for="email"> Email* </label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="username"> Username* </label>
+            <input type="text" id="username" name="username" required>
+        
+        </div>
+
+        <div class = "same_line_fields">
+
+            <label for="phone"> Phone No* </label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address"> Address </label>
+            <input type="text" id="address" name="address">
+
+        </div>   
+
+        <div class = "same_line_fields">
+            <label for="password"> Password* </label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword"> Confirm Password* </label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <label for="role"> Role* </label>
+            <select id="role" name="role">
+                <option value="volunteer">Volunteer</option>
+                <option value="requestor">Requestor</option>
+            </select>
+
+        </div>
+
+        <button type="submit"><a href="Accounts.html">Register</a></button>
+
+    </div>
+</div>
+</form>
+</body>
+<footer class="footer">
+    <div class="images"> 
+     <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+     <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+     <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+    </div>
+    <p>&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+  </footer>
+</html>

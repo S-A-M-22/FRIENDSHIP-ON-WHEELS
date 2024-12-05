@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accounts Page</title>
+<link rel="stylesheet" href="styles/login.css" />
+<link rel="stylesheet" href="styles/main.css" />
+<style href="login.css" ></style>
+</head>
+
+<body>
+ <!-- Logo and Header with Menu -->
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <h1>Friendship On Wheels</h1>
+        <nav class="menu">
+        <!-- link the menu options to respective html pages -->
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+            <!-- Dropdown menu for Login -->
+            <div class="dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+            <div class="dropdown-content">
+                <a href="register.html">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Accounts.html">Profile</a>
+            </div>
+            </div>
+        </ul>
+        </nav>
+    </div>
+
+    <!--  Profile picture of the user being displayed  -->
+    <div class="profile-pic-container">
+        <img class= "profile-pic" src="images/images.png" alt="Profile Picture">
+    </div>
+  
+    <!-- Update profile button -->
+    <form class="update-profile" action="updateDetails.html" method="GET">
+        <div class="schedule-calendar-button">
+            <input type="submit" value=" UPDATE PROFILE ">
+        </div>
+    </form>
+  
+   <!-- Schedule calendar button -->
+    <form class="schedule-calendar" action="scheduling_calendar.html" method="GET">
+        <div class="schedule-calendar-button">
+            <input type="submit" value=" SCHEDULING CALENDAR ">
+        </div>
+    </form>
+  
+   <!-- Volunteer timesheet button -->
+    <form class="time-sheet" action="timesheet.html" method="GET">
+        <div class="schedule-calendar-button">
+            <input type="submit" value=" VOLUNTEER TIME-SHEET ">
+        </div>
+    </form>
+    
+   <!-- Meal order button -->
+    <form class="meal-order" action="meal_order.html" method="GET">
+        <div class="schedule-calendar-button">
+            <input type="submit" value=" MEAL ORDERING ">
+        </div>
+    </form>
+
+    <!--  Displaying the personal details of the user  -->
+    <div class="account-details" style="margin-top: -27%;">
+        <span style="font-family: Butler; font-size: 15px;">First Name : </span> 
+        <span style="font-family: Butler; font-size: 15px; margin-left: 150px;">Last Name : </span><br>
+        <span style="font-family: Butler; font-size: 15px;" ><b>John</b></span> 
+        <span style="font-family: Butler; font-size: 15px; margin-left: 200px;"><b>Hopkins </b></span><br><br>  
+        <span style="font-family: Butler; font-size: 15px;">E-mail : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>jhopkins@gmail.com</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Phone Number : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>123456789</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Address : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>House No. 7, ABC Street, XY Suburb, Sydney</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Birthday : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>01-01-1960</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Gender : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>Male</b></span><br><br>
+    </div>
+
+    <div class="add-details">
+        <span style="font-family: Butler; font-size: 15px; margin-bottom: 5px;">Dietary Preference(s) : </span><br> 
+        <span style="font-family: Butler; font-size: 15px; margin-left: 1px;"><b>Celiac</b></span><br><br>  
+        <span style="font-family: Butler; font-size: 15px;">Preferred Language : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>English</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Accessibility issues (if any) : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>wheelchair</b></span><br><br>
+        <span style="font-family: Butler; font-size: 15px;">Matching Preferences (if any) : </span><br>
+        <span style="font-family: Butler; font-size: 15px;"><b>Volunteer's Name</b></span><br><br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart - FriendshipOnWheels</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/cart.css">
+        <script src="cart.js"></script>
+    </head>
+    <body>
+        <!-- Logo and Header with Menu -->
+        <div class="header">
+          <img src="images/logo.jpeg" alt="Logo" class="logo">
+          <h1>Friendship On Wheels</h1>
+          <nav class="menu">
+            <!-- link the menu options to respective html pages -->
+            <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a class="active" href="services.html">Services</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="contact_us.html">Contact Us</a></li>
+              <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+              <!-- Dropdown menu for Login -->
+              <div class="dropdown">
+                <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+                <div class="dropdown-content">
+                  <a href="register.html">Register</a>
+                  <a href="Login.html">Login</a>
+                  <a href="Accounts.html">Profile</a>
+                </div>
+              </div>
+            </ul>
+          </nav>
+        </div>
+        <a class="back" href="meal_order.html">Back to meal options</a>
+        <main style="min-height: fit-content; padding-bottom: 200px;">
+        <h1>Your cart</h1>
+        <section id="cart-wrapper">
+            <div class="cart-item">
+                <img src="images/food1.jpg">
+                <h3 class="dish-name">Chicken wings</h3>
+                <div class="quantity">
+                    <h3>Quantity</h3>
+                    <input type="number" min="1" max="10" value="1">
+                </div>
+                <button onclick="deleteElement(this)" class="remove-item">
+                    Remove
+                </button>
+            </div>
+        </section>
+        <div id="extras" style="display: block; margin: 20px;">
+          <h3>Want anything else?</h3>
+          <p>Our team is happy to provide some extra support around the house.</p>
+          
+          <select name="extra-service" id="extra-service">
+              <option value="None">None</option>
+              <option value="Housekeeping">Housekeeping</option>
+              <option value="Safety check">Safety check</option>
+              <option value="Other">Other</option>
+          </select>
+        </div>
+        <a id="place-order" href="order_confirmation.html"><button>Place order</button></a>
+        </main>
+        <footer class="footer">
+            <div class="images"> 
+                <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+                <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+                <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+            </div>
+            <p style="text-align: center;">&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport-header" content="width=device-width">
+<title>Login Page</title>
+<link rel="stylesheet" href="styles/login.css" />
+<link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+      <img src="images/logo.jpeg" alt="Logo" class="logo">
+      <h1>Friendship On Wheels</h1>
+      <nav class="menu">
+      <!-- link the menu options to respective html pages -->
+      <ul>
+          <li><a class="active" href="homepage.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+          <!-- Dropdown menu for Login -->
+          <div class="dropdown">
+          <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+          <div class="dropdown-content">
+              <a href="register.html">Register</a>
+              <a href="Login.html">Login</a>
+              <a href="Accounts.html">Profile</a>
+          </div>
+          </div>
+      </ul>
+      </nav>
+  </div>
+
+    <div class="container">
+      <div class="login-img">
+        <img src="images/friendly.jpeg">
+      </div>
+        <div class="login-box">
+            <form class="login-form" action="Accounts.html" method="GET" style="font-family: Times New Roman;">
+                <div class="login-title">
+                  <label><b>LOGIN </b></label>
+                </div>
+                <br>
+                <div class="username">
+                <label for="username" style="font-size:15px;">Username:</label> <br>
+                <input style="font-size:20px" type="text" id="username" name="username" required>
+                </div>
+                <br>
+                <div class="password">
+                <label for="password" style="font-size:15px;">Password:</label> <br>
+                <input style=font-size:20px type="password" id="password" name="password" required>
+                </div>
+                <br><br>
+                <div class="login-btn">
+                <input type="submit" value="LOGIN">
+                </div>
+                <br><br><br>
+                <div class="sign-up-link">
+                  <p><br><a href="forgotPassword.html"> Forgot Password? </a> 
+                    <br> Don't have an account? Sign Up <a href="register.html"> HERE! </a>
+                  </p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    </div>
+
+  
+</body>
+</html>

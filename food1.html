@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <title>Friendship On Wheels</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/food.css" />
+    <title>Meal Selections</title>
+    
+</head>
+
+<body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <h1>Friendship On Wheels</h1>
+        <nav class="menu">
+        <!-- link the menu options to respective html pages -->
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+            <!-- Dropdown menu for Login -->
+            <div class="dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+            <div class="dropdown-content">
+                <a href="register.html">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Accounts.html">Profile</a>
+            </div>
+            </div>
+        </ul>
+        </nav>
+    </div>
+    <div class="SearchButton">
+        <input id="search_bar" type="text" placeholder="Search">
+    </div>
+    <div class="Back">
+        <a href="meal_order.html">
+            <button type="button">Back to Meal Options</button>
+        </a>
+    </div>
+    <section class = "meal_list">
+        <div class="meal_order" style = "background-color: rgb(242, 239, 236);">
+            <p class = "mealOption">Meal Information</p>
+            <div id = "box"> 
+                <img src = "Images/food1.jpg" alt = "Buffalo Chicken Wings with Celery Sticks and Blue Cheese Dressing">
+            <div class="description">
+                <p class="p3">Buffalo Chicken Wings with Celery Sticks and Blue Cheese Dressing</p>
+                <p style="font-weight: bold;">Meal Description</p>
+                <p>This dish is a variation of classic Buffalo wings, which are chicken wings that have been battered or breaded and then baked or fried. They are then coated in a spicy Buffalo sauce, which is typically made with hot sauce, butter, and vinegar. The wings in the image are served with celery sticks and blue cheese dressing, which are traditional accompaniments for Buffalo wings.</p>
+                <p><b>Ingredients:<b> Chicken Wings, Vegetable Oil, Unbleached Wheat Flour, Baking Powder, Paprika, Cayenne Pepper, Garlic Powder, Onion Powder, Salt, Black Pepper.
+
+                    Sauce: Hot Sauce (Distilled Vinegar, Aged Cayenne Red Peppers, Salt, Garlic Powder, Natural Flavors), Butter, Honey.
+                    
+                    Dip: Blue Cheese Dressing (Cultured Pasteurized Milk, Buttermilk, Vinegar, Blue Cheese Crumbles, Canola Oil, Salt, Garlic Powder, Onion Powder, Spices).
+                    
+                    Contains: Wheat, Milk, Soy (in Blue Cheese Dressing).</p>
+                <a href="cart.html"><button type ="button">Add to Cart</button></a>
+            </div>
+            <div>
+            <div id="box2">
+                <p class="p2">!Allergen Warning!</p>
+                <p class="p4">This dish contains dairy (milk and cheese), wheat (in the batter) and chicken.</p>
+            </div>
+            <div id="box3">
+                <p class="p3">Nutritional Information</p>
+                <p>Nutritional data: (per serving, about 3 wings)</p>
+                    <p class="p4">Calories: 400</p>
+                    <p class="p4">Fat: 25g</p>
+                    <p class="p4">Saturated fat: 10g</p>
+                    <p class="p4">Cholesterol: 100mg</p>
+                    <p class="p4">Sodium: 800mg</p>
+                    <p class="p4">Carbohydrates: 10g</p>
+                    <p class="p4">Sugar: 5g</p>
+                    <p class="p4">Protein: 30g</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="images"> 
+         <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+         <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+         <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+        </div>
+        <p style="text-align: center; color: white;">&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

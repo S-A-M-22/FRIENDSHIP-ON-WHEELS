@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship On Wheels</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <style>
+        #cart-confirm {
+            background-color: lightgrey;
+            margin: 50px;
+            padding: 20px;
+            height: 300px; 
+            overflow: auto;
+        }
+        body {
+            min-height: 100vh;
+        }
+    </style>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <h1>Friendship On Wheels</h1>
+        <nav class="menu">
+        <!-- link the menu options to respective html pages -->
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+            <!-- Dropdown menu for Login -->
+            <div class="dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+            <div class="dropdown-content">
+                <a href="register.html">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Accounts.html">Profile</a>
+            </div>
+            </div>
+        </ul>
+        </nav>
+    </div>
+    <section id="cart-confirm">
+        <image src="images/Our_location.PNG" height="80%" style="float: right;"></image>
+        <h2>Order confirmed</h2>
+        <h3>Expected delivery date/time: 22-05-2024 at 5:30pm</h3>
+        <p>Your paired volunteer will deliver the meal to your house on this day. The time of delivery will be updated when they are arriving.</p>
+    </section>
+
+    <footer class="footer">
+        <div class="images"> 
+         <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+         <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+         <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+        </div>
+        <p>&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+    </footer>
+</body>

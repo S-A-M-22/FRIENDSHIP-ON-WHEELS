@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship On Wheels</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/calendar.css" />
+</head>
+
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+      <img src="images/logo.jpeg" alt="Logo" class="logo">
+      <h1>Friendship On Wheels</h1>
+      <nav class="menu">
+      <!-- link the menu options to respective html pages -->
+      <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a class="active" href="services.html">Services</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+          <!-- Dropdown menu for Login -->
+          <div class="dropdown">
+          <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+          <div class="dropdown-content">
+              <a href="register.html">Register</a>
+              <a href="Login.html">Login</a>
+              <a href="Accounts.html">Profile</a>
+          </div>
+          </div>
+      </ul>
+      </nav>
+  </div>
+
+<body>
+  <!-- Calendar -->
+  <div class="calendar">
+    <div class="month">May 2024</div>
+    <div class="days">
+      <div>S</div>
+      <div>M</div>
+      <div>T</div>
+      <div>W</div>
+      <div>T</div>
+      <div>F</div>
+      <div>S</div>
+    </div>
+    <div class="dates">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class="appointment-small">4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div class="appointment-small">10</div>
+        <div>11</div>
+        <div class="appointment-small">12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div class="appointment-small">17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div class="appointment-date">21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div class="appointment-small">26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div class="appointment-small">30</div>
+        <div>31</div>
+    </div>
+
+    <!-- Month Navigation Buttons -->
+    <div class="navigation">
+        <button id="prevMonth">&larr; Previous Month</button>
+        <button id="nextMonth">Next Month &rarr;</button>
+    </div>
+
+  </div>
+
+<!-- Appointments Column -->
+<div class="appointments">
+<h2>Your Upcoming Appointments</h2>
+<div class="appt-box">
+    <div class="left">
+        <div class="date">
+            <div class="appointments-month">May</div>
+            <div class="date-number">21</div>
+            <div class="day">Sunday</div>
+        </div>
+    </div>
+    <div class="vertical-divider"></div>
+    <div class="right">
+        <div class="top-section">
+            <!-- Time and Requestor -->
+            <div class="appointment-details">Time<br>
+                <p style="margin: 0; color: black; font-size: 32px;">3:00pm</p></div>
+            <div class="appointment-details" style="margin-right: 10px;">Requestor<br>
+                <p style="margin: 0; color: black; font-size: 32px;">Samuel</p></div>
+        </div>
+        <hr class="divider">
+        <div class="bottom-section">
+            <!-- Appointment type and options button -->
+            <div class="appointment-details" style="font-size: 24px;">Appointment Type<br>
+                <p style="margin: 0; color: black; font-size: 30px;">Safety Check</p></div>
+            <!-- Dropdown container -->
+          <div class="dropdown-options">
+            <button class="dropdown-button">Options</button>
+            <!-- Dropdown content -->
+            <div class="dropdown-content">
+              <a href="#">Edit Appointment</a>
+              <a href="#">Cancel Appointment</a>
+              <a href="#">Add to Calendar</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="appt-box">
+    <div class="left">
+        <div class="date">
+            <div class="appointments-month">May</div>
+            <div class="date-number">26</div>
+            <div class="day">Sunday</div>
+        </div>
+    </div>
+    <div class="vertical-divider"></div>
+    <div class="right">
+        <div class="top-section">
+            <!-- Time and Requestor -->
+            <div class="appointment-details">Time<br>
+                <p style="margin: 0; color: black; font-size: 32px;">7:30pm</p></div>
+            <div class="appointment-details" style="margin-right: 10px;">Requestor<br>
+                <p style="margin: 0; color: black; font-size: 32px;">Taylor</p></div>
+        </div>
+        <hr class="divider">
+        <div class="bottom-section">
+            <!-- Appointment type and options button -->
+            <div class="appointment-details" style="font-size: 24px;">Appointment Type<br>
+                <p style="margin: 0; color: black; font-size: 30px;">Meal Delivery</p></div>
+            <!-- Dropdown container -->
+          <div class="dropdown-options">
+            <button class="dropdown-button">Options</button>
+            <!-- Dropdown content -->
+            <div class="dropdown-content">
+              <a href="#">Edit Appointment</a>
+              <a href="#">Cancel Appointment</a>
+              <a href="#">Add to Calendar</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="appt-box">
+    <div class="left">
+        <div class="date">
+            <div class="appointments-month">May</div>
+            <div class="date-number">30</div>
+            <div class="day">Sunday</div>
+        </div>
+    </div>
+    <div class="vertical-divider"></div>
+    <div class="right">
+        <div class="top-section">
+            <!-- Time and Requestor -->
+            <div class="appointment-details">Time<br>
+                <p style="margin: 0; color: black; font-size: 32px;">11:15am</p></div>
+            <div class="appointment-details" style="margin-right: 10px;">Requestor<br>
+                <p style="margin: 0; color: black; font-size: 32px;">Aurora</p></div>
+        </div>
+        <hr class="divider">
+        <div class="bottom-section">
+            <!-- Appointment type and options button -->
+            <div class="appointment-details" style="font-size: 24px;">Appointment Type<br>
+                <p style="margin: 0; color: black; font-size: 30px;">Friendly Visit</p></div>
+            <!-- Dropdown container -->
+          <div class="dropdown-options">
+            <button class="dropdown-button">Options</button>
+            <!-- Dropdown content -->
+            <div class="dropdown-content">
+              <a href="#">Edit Appointment</a>
+              <a href="#">Cancel Appointment</a>
+              <a href="#">Add to Calendar</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer class="footer">
+  <div class="images"> 
+   <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+   <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+   <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+  </div>
+  <p>&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+</footer>
+    
+</div>
+</body>
+</html>

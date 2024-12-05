@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us - FriendshipOnWheels</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/contact.css">
+    </head>
+    <body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <h1>Friendship On Wheels</h1>
+        <nav class="menu">
+        <!-- link the menu options to respective html pages -->
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a class="active" href="contact_us.html">Contact Us</a></li>
+            <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+            <!-- Dropdown menu for Login -->
+            <div class="dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+            <div class="dropdown-content">
+                <a href="register.html">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Accounts.html">Profile</a>
+            </div>
+            </div>
+        </ul>
+        </nav>
+    </div>
+
+        <h1 id="title">Contact Us</h1>
+        <div id="page-contents">
+        <section id="info">
+            <p class="info-text">
+            At Friendship on Wheels, we greatly value your feedback.<br>
+            Our phone hotline for any enquiries or feedback is 02 8888 8888<br>
+            If you would like to leave us an email message, please use the form below.
+            </p>
+            <form id="feedback-form">
+                <h3 style="margin: 0px;">Your name</h3>
+                <div id="name">
+                    <p>First name*</p>
+                    <p>Last name</p>
+                    <input id="firstname" class="required" type="text" required>
+                    <input id="lastname" type="text">
+                </div>
+                <p>Email</p>
+                <input id="email" type="text">
+                <p>Your message*</p>
+                <textarea id="feedback-message" required></textarea>
+                <button id="submit-feedback">Submit Feedback</button>
+            </form>
+        </section>
+        <section id="map">
+            <p style="margin-right: 10px;">
+            If you wish to find us in person, we are located at:
+            <p style="font-weight: bold;">555 Place Street, Alexandria 2015</p>
+            </p>
+            <img src="images/Our_location.PNG" alt="Our location" id="map-img"></img>
+        </section>
+        </div>
+        <footer class="footer">
+            <div class="images"> 
+             <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+             <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+             <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+            </div>
+            <p style="text-align: center;">&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

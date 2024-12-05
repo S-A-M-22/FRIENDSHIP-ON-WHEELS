@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <title>Meal Selections</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/food.css" />
+</head>
+
+<body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+        <img src="images/logo.jpeg" alt="Logo" class="logo">
+        <h1>Friendship On Wheels</h1>
+        <nav class="menu">
+        <!-- link the menu options to respective html pages -->
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+            <!-- Dropdown menu for Login -->
+            <div class="dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+            <div class="dropdown-content">
+                <a href="register.html">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Accounts.html">Profile</a>
+            </div>
+            </div>
+        </ul>
+        </nav>
+    </div>
+    
+    <div class="SearchButton">
+        <input id="search_bar" type="text" placeholder="Search">
+    </div>
+    <div class="Back">
+        <a href="meal_order.html">
+            <button type="button">Back to Meal Options</button>
+        </a>
+    </div>
+    <section class = "meal_list">
+        <div class="meal_order" style = "background-color: rgb(242, 239, 236);">
+            <p class = "mealOption">Meal Information</p>
+            <div id = "box"> 
+                <img src = "Images/food9.jpg" alt = "Chopped Asparagus Salad with Goat Cheese and Hazelnuts">
+            <div class="description">
+                <p class="p6">Vegetarian</p>
+                <p class="p3">Chopped Asparagus Salad with Goat Cheese and Hazelnuts</p>
+                <p style="font-weight: bold;">Meal Description</p>
+                <p>Treat yourself to a light and refreshing salad that's bursting with flavor and texture. Tender asparagus spears are chopped and tossed with crisp romaine lettuce for a delightful base. Creamy goat cheese crumbles offer a tangy counterpoint to the sweetness of the asparagus, while crunchy hazelnuts add a satisfying nuttiness. A simple dressing of olive oil and lemon juice ties all the elements together, and a sprinkle of salt and pepper enhances the natural flavors. This salad is a perfect light lunch or a delightful starter for a summer meal.</p>
+                <p><b>Ingredients:<b> Asparagus, Lettuce (romaine), Hazelnuts, Goat Cheese, Olive Oil, Lemon Juice, Salt, Pepper.</p>
+                <a href="cart.html"><button type ="button">Add to Cart</button></a>
+            </div>
+            <div>
+            <div id="box2">
+                <p class="p2">!Allergen Warning!</p>
+                <p class="p4">This dish contains dairy (goat cheese) and tree nuts (hazelnuts).</p>
+            </div>
+            <div id="box3">
+                <p class="p3">Nutritional Information</p>
+                <p>Nutritional data: (per serving)</p>
+                    <p class="p4">Calories: 350</p>
+                    <p class="p4">Fat: 10g</p>
+                    <p class="p4">Saturated fat: 5g</p>
+                    <p class="p4">Cholesterol: 100mg</p>
+                    <p class="p4">Sodium: 350mg</p>
+                    <p class="p4">Carbohydrates: 5g</p>
+                    <p class="p4">Sugar: 10g</p>
+                    <p class="p4">Protein: 15g</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="images"> 
+         <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+         <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+         <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+        </div>
+        <p style="text-align: center; color: white;">&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

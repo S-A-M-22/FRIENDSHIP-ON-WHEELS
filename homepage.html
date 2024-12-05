@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship On Wheels</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/homepage.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+
+<body>
+ <!-- Logo and Header with Menu -->
+  <div class="header">
+    <img src="images/logo.jpeg" alt="Logo" class="logo">
+    <h1 style="font-weight: bold;">Friendship On Wheels</h1>
+    <nav class="menu">
+      <!-- link the menu options to respective html pages -->
+      <ul>
+        <li><a class="active" href="homepage.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+        <!-- Dropdown menu for Login -->
+        <div class="dropdown">
+          <button class="dropbtn" type="button" data-toggle="dropdown">Account <span class="caret"></span></button>
+          <div class="dropdown-content">
+            <a href="register.html">Register</a>
+            <a href="Login.html">Login</a>
+            <a href="Accounts.html">Profile</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- replacement until we get our video -->
+  <div class="main-content">
+    <div class="cover-photo">
+      <img src="images/homepage-3.jpg" class="homepage-image">
+      <!-- <p style="font-weight: bolder; margin-left: 650px; font-size: 20px; margin-top: -5px;">↓</p> -->
+    <hr>
+    <div>
+      <section class="content-logos">
+        <img src="images/how-we-work-logo.png" class="logos">
+        <p style="font-family: Butler; font-weight: bolder;">INSIGHTS</p>
+
+        <img src="images/our-values-logo-2.png" class="logos">
+        <p style="font-family: Butler; font-weight: bolder;">OUR VALUES</p>
+
+        <img src="images/food-logo.png" class="logos">
+        <p style="font-family: Butler; font-weight: bolder;">MEAL ORDERING</p>
+
+        <img src="images/our-team-logo.png" class="logos">
+        <p style="font-family: Butler; font-weight: bolder;">OUR TEAM</p>
+
+      </section>
+      <hr>
+      <section class="What-we-do">
+        <img src="images/homepage-2.jpg" class="what-we-do-pic">
+        <div class="what-we-do-header">
+          <p>INSIGHTS</p>
+          <div class="content">
+            <p> We are a non-profit initiative dedicated to providing support to the elderly and people with disabilities. Our goal is to not only deliver 
+              meals to their homes, but also offer additional services such as friendly visits and safety checks by our carefully vetted volunteers, all from 
+              the comfort of their own homes. By simply registering, they can access everything they need with just a few clicks.
+                </p>
+          </div>
+        </div>
+
+      </section>
+      <hr>
+      <section class="Our-values">
+        <img src="images/homepage.jpeg" class="our-values-pic">
+        <div class="our-values-header">
+          <p>OUR VALUES</p>
+          <div class="content">
+            <p> We have a variety of meal offering catered to all kinds of food preferences. 
+              You can either choose meals from the menu or just make your own! 
+              Just on the click of a button have tasty nutritious food right at your doorsteps!  </p>
+          </div>
+        </div>
+
+      </section>
+      <hr>
+      <section class="Meal-order">
+        <img src="images/healthy_meal.png" class="meal-order-pic">
+        <div class="meal-order-header">
+          <p>MEAL ORDERING</p>
+          <div class="content">
+            <p> We have a variety of meal offering catered to all kinds of food preferences. 
+              You can either choose meals from the menu or just make your own! 
+              Just on the click of a button have tasty nutritious food right at your doorsteps!  </p>
+          </div>
+
+          <!-- TO ORDER BUTTON -->
+          <form class="meal-order" action="meal_order.html" method="GET">
+            <div class="order-button">
+                <input type="submit" value=" ORDER MEAL ">
+            </div>
+        <!-- Insert your meal-ordering content here -->
+        </form>
+        </div>
+
+      </section>
+      <hr>
+      <section class="Our-team">
+        <video src="images/final_pitch.mov" class="our-values-pic" controls poster="images/placeholder.jpg"></video>
+        <p style="margin-left: 500px; font-size: 15px; color: darkblue;">Please use full screen to view the video</p>
+      </section>
+      <hr>
+    </div>
+  </div>
+</body>
+
+<footer class="footer">
+  <div class="images"> 
+   <a href="https://www.facebook.com/"> <img class="pic" src="images/fb.png"> </a>
+   <a href="https://www.youtube.com/"> <img class="pic" src="images/yt.png"> </a>
+   <a href="https://www.instagram.com/"> <img class="pic" src="images/ig.png"> </a>
+  </div>
+  <p>&copy; 2024 Friendship On Wheels. All rights reserved.</p>
+</footer>
+</html>

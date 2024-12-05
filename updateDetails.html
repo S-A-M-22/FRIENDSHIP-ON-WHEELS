@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<meta charset="UTF-8">
+<meta name="viewport-header" content="width=device-width, initial-scale=1.0">
+<title>Accounts Page</title>
+<link rel="stylesheet" href="styles/updateDetails.css" />
+<link rel="stylesheet" href="styles/main.css" />
+<style href="updateDetails.css" ></style>
+</head>
+
+<body>
+    <!-- Logo and Header with Menu -->
+    <div class="header">
+      <img src="images/logo.jpeg" alt="Logo" class="logo">
+      <h1>Friendship On Wheels</h1>
+      <nav class="menu">
+      <!-- link the menu options to respective html pages -->
+      <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li><a href="livechat.html"><img src="images/livechat.png" alt="Live Chat" class="livechat-icon"></a></li>
+          <!-- Dropdown menu for Login -->
+          <div class="dropdown">
+          <button class="dropbtn" type="button" data-toggle="dropdown">Account ▾<span class="caret"></span></button>
+          <div class="dropdown-content">
+              <a href="register.html">Register</a>
+              <a href="Login.html">Login</a>
+              <a href="Accounts.html">Profile</a>
+          </div>
+          </div>
+      </ul>
+      </nav>
+  </div>
+
+    <!--  Displaying profile picture of the user  -->
+    <div class="profile-pic-container">
+      <img class= "profile-pic" src="images/images.png" alt="Profile Picture">
+    </div>
+    
+    <!--  Update profile picture button  -->
+    <div class="update-pfp">
+      <input type="submit" value="  CHANGE PROFILE PICTURE  ">
+    </div>
+
+    <!--  Displaying input boxes for the user to update their personal details -->
+    <form class="details" action="Accounts.html" method="GET">
+      <div class="account-details">
+        <label for="account-details"><b>First Name : </b></label> 
+        <label for="account-details"><b>Last Name : </b></label><br>
+        <input type="text" id="FirstName" name="First Name" value="John">
+        <input type="text" id="LastName" name="Last Name" value="Hopkins"><br>
+        <label for="account-details"><b>E-mail : </b></label><br>
+        <input style="width: 300px" type="email" id="Email" name="Email" value="jhopkins@gmail.com"><br>
+        <label for="account-details"><b>Phone Number : </b></label><br>
+        <input type="number" id="Phone" name="Phone" value="123456789"><br>
+        <label for="account-details"><b>Address : </b></label><br>
+        <input style="width: 300px; margin-top: 5px;" type="text" id="address" name="address" value="House No. 7, ABC Street, XY Suburb, Sydney"><br>
+        <label for="account-details"><b>Birthday : </b></label><br>
+        <input type="date" id="birthday" name="Birthday"><br>
+        <label for="account-details"><b>Gender : </b></label><br>
+        <select style="width: 100px; margin-top: 3px; font-size: 12px; height: 20px;" id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="others">Others</option>
+        </select>
+      </div>
+
+      <div class="add-details">
+        <label for="account-details"><b>Dietary Preferences : </b></label><br>
+        <input style="height: 30px; vertical-align: -70% " type="checkbox" id="diet" name="diet" value="Non-vegetarian">
+        <label for="account-details">Non-Vegetarian </label><br>
+        <input style="height: 30px; vertical-align: -70%" type="checkbox" id="diet" name="diet" value="Vegetarian">
+        <label for="account-details">Vegetarian </label><br>
+        <input style="height: 30px; vertical-align: -70%" type="checkbox" id="diet" name="diet" value="Vegan">
+        <label for="account-details">Vegan</label><br>
+        <input style="height: 30px; vertical-align: -70%;" type="checkbox" id="diet" name="diet" value="Gluten-free">
+        <label for="account-details">Gluten-free</label><br> 
+        <input style="height: 30px; vertical-align: -70%" type="checkbox" id="diet" name="diet" value="Other" checked>
+        <label for="account-details">Other:</label>
+        <input style="margin-left: -120px; width: 130px;" type="text" id="other" name="other" value="celiac"><br><br><br><br>
+        <label for="account-details"><b>Preferred Language : </b></label><br>
+        <input style="width: 200px; margin-top: 3px;" type="text" id="lang" name="lang" value="English"><br><br>
+        <label for="account-details"><b>Accessibility issues (if any) : </b></label><br>
+        <input style="width: 200px; margin-top: 3px;" type="text" id="Accessibility" name="Accessibility" value="wheelchair"><br><br>
+      </div>
+      
+      <div class="match-preferences">
+        <label for="match-preferences"><b>Matching Preferences (if any) : </b></label><br>
+        <input style="width: 200px; margin-top: 5px;" type="text" id="match-preferences" name="match-preferences" value="volunteer's name"><br><br>
+      </div>
+      
+      <!--  Displaying SAVE button to save the updated details  -->
+      <input style="margin-left:50%; margin-top: 400px; height: 30px; width:100px; text-align: center; font-size: 12px; font-family: Butler; border-radius: 20px; 
+      color: rgb(52, 0, 66); background-color: rgb(228, 203, 252); border: 3px solid rgb(0, 0, 0);" type="submit" value="SAVE">
+      <br><br>
+  </form>
+</body>
+</html>
