@@ -1,0 +1,148 @@
+/* formatting homepage photo */
+.homepage-image {
+    margin: auto;
+    width: 100%;
+    background-position: center;
+}
+  
+.content-logos {
+    margin-left: 2px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -90px;
+    /* padding: 1px; */
+    background-color: #F1EFEA; 
+}
+  
+.logos {
+    height: 16%;
+    width: 16%;
+    position: left;
+    margin-right: -100px;
+}
+  
+.logos p {
+    font-size: 16px; 
+    color: rgb(0, 0, 0); 
+    font-family: 'Butler';
+    margin-top: 5px;
+}
+  
+/* What we do section css */
+  
+.what-we-do-pic {
+    margin-top: -90px;
+    position: left;
+    justify-content:space-evenly;
+    display: flex;
+    align-content: stretch;
+    width: 50%;
+}
+  
+.what-we-do-header {
+    margin-left: 60%;
+    font-family: Butler;
+    font-size: xx-large;
+    margin-top: -350px;
+    margin-bottom: 139px;
+}
+  
+.what-we-do-header .content {
+    /* margin-left: 20%; */
+    font-family: Butler;
+    font-size: large;
+    padding-right: 20px;
+    /* margin-top: -300px; */
+    /* margin-bottom: 28px; */
+}
+
+/* Our values section css */
+  
+.our-values-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: right;
+    display: flex;
+    align-content: right;
+    margin-left: 45%;
+}
+  
+.our-values-header {
+    margin-left: 20%;
+    font-family: Butler;
+    font-size: xx-large;
+    margin-top: -300px;
+    margin-bottom: 140px;
+}
+
+.our-values-header .content {
+    margin-left: -20%;
+    font-family: Butler;
+    font-size: large;
+    padding-right: 80%;
+    /* margin-top: -300px; */
+    /* margin-bottom: 28px; */
+}
+
+/* Meal Ordering section css */
+
+.meal-order-pic {
+    margin-top: -15px;
+    position: left;
+    justify-content:space-evenly;
+    display: flex;
+    align-content: stretch;
+    width: 50%;
+}
+  
+.meal-order-header {
+    margin-left: 60%;
+    font-family: Butler;
+    font-size: xx-large;
+    margin-top: -280px;
+    margin-bottom: 90px;
+}
+
+.meal-order {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Butler';
+}
+
+.meal-order input {
+    font-size: 20px;
+    font-family: 'Butler';
+    border-radius: 10px;
+    margin-left: -100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(135, 230, 98);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.meal-order-header .content {
+    /* margin-left: 20%; */
+    font-family: Butler;
+    font-size: large;
+    padding-right: 20px;
+    /* margin-top: -300px; */
+    margin-bottom: 15px;
+}
+/* Our team section css */
+  
+/* Our team section css */
+.Our-team {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+.Our-team .our-values-pic {
+    max-width: 100%;
+    height: auto;
+    margin-left: 300px;
+}
+  

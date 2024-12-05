@@ -1,0 +1,184 @@
+h2.page_title {
+    font-family: Butler;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 100px;
+}
+
+p{
+    font-family: Butler;
+    text-align: left;
+    color: black;
+    font-size: medium;
+}
+
+.p2{
+    font-family: Butler;
+    text-align: left;
+    color: rgb(171, 18, 18);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.p3{
+    font-family: Butler;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.p4{
+    font-family: Butler;
+    text-align: left;
+    color: black;
+    font-size: large;
+    margin: 0;
+}
+
+.p5{
+    font-family: Butler;
+    text-align: right;
+    color: black;
+    font-size: large;
+    margin: 0;
+}
+
+.p6{
+    font-family: Butler;
+    text-align: right;
+    color: forestgreen;
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+}
+
+.meal_order{
+    font-family: "Butler", sans-serif;
+    max-width: fit-content;
+    max-height: fit-content;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: scroll;
+}
+
+.mealOption{
+    font-family: Butler;
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+#box{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 5px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(99, 74, 100) ;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding-left: 15px;
+}
+
+#box2{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 5px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(241, 47, 13) ;
+    display: grid;
+    align-items: center;
+    text-decoration:solid;
+}
+
+#box3{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 5px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(72, 148, 88) ;
+    display: grid;
+    align-items: center;
+    text-decoration:solid;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.description{
+    display: inline-block;
+    position: relative;
+}
+
+.description button{
+    background-color: rgb(131, 77, 133);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(131, 77, 133);
+    font-size: medium;
+}
+
+.description button:hover{
+    background-color: rgb(193, 127, 196);
+}
+
+.SearchButton input {
+    border: 1px solid rgb(99, 74, 100);
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: rgb(242, 239, 236);
+    color: black;
+    font-family: Butler;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+.Back {
+    text-align: center;
+}
+
+.Back a button {
+    background-color: #7F4E91;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Butler;
+}
+
+.Back a button:hover {
+    background-color: #6A3A7A;
+}

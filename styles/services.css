@@ -1,0 +1,104 @@
+.container {
+    font-family: Butler;
+    font-size: x-large;
+    background-color: #f4f4f9;
+    color: #06293afa;
+    margin: 35px;
+    overflow: auto;
+}
+
+
+body {
+    font-family: Butler;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+section {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: hsl(207, 43%, 90%);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #005a87;
+}
+
+
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.link {
+    background-color: #f6f9f4;
+    margin: 30px;
+}
+
+h4 {
+    font-family: Butler;
+    content: center;
+    color: black;
+}
+
+.images {
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+}
+
+.pic {
+    width: 500px;   
+    height: 300px; 
+    margin-left: 70px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.additional_services {
+    font-family: Butler;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+
+.req_services {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.meal_order_button {
+    display: flex;
+    justify-content: center;  
+}
+
+.meal_order_button button {
+    padding: 10px 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background-color: #005a87; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+}
+
+.services {
+    font-family: Butler;
+}

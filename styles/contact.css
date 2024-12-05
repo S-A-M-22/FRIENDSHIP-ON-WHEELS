@@ -1,0 +1,89 @@
+* {
+    text-align: left;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.info-text {
+    padding: 1rem;
+    font-size: 1.25em;
+    color: black;
+}
+
+#title {
+    padding: 1rem;
+    color: black;
+}
+
+#page-contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#info {
+    display: inline;
+    min-width: 500px;
+    overflow: visible;
+    
+}
+
+#map {
+    display: inline-block;
+    overflow-wrap: break-word;
+    flex-basis: 30%;
+}
+
+#map-img {
+    width: 90%;
+}
+
+form {
+    font-size: 1.5em;
+    padding: 1rem;
+    color: black;
+    
+}
+
+#feedback-form {
+    display: inline-grid;
+    max-width: 700px;
+}
+
+input {
+    font-size: 1em;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+#name {
+    display: inline-grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#feedback-message {
+    min-height: 300px;
+    font-size: 0.75em;
+    margin-bottom: 15px;
+}
+
+#submit-feedback {
+    display: inline-block;
+    justify-self: center;
+    background-color: green;
+    color: white;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75em;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}

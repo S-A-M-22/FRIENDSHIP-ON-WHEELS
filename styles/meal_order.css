@@ -1,0 +1,83 @@
+/* Style for h2.page_title */
+h2.page_title {
+    font-family: 'Butler';
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 10px; /* Remove default margin */
+    margin-bottom: 0px; /* Add margin between h2 and search box */
+}
+
+p {
+    font-family: 'Butler';
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+
+#meal_order {
+    font-family: "Butler";
+    max-width: fit-content;
+    max-height: fit-content;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: scroll;
+    text-align: center; /* Align meal boxes in the center */
+}
+
+#box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border: 1px solid rgb(99, 74, 100);
+    display: inline-block;
+    position: relative;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.box button {
+    background-color: rgb(131, 77, 133);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(131, 77, 133);
+    font-size: medium;
+    position: absolute;
+    right: 20px;
+    bottom: 17px;
+}
+
+.SearchButton input {
+    border: 1px solid rgb(99, 74, 100); /* Add border */
+    border-radius: 5px; /* Add border-radius */
+    padding: 8px 10px; /* Add padding */
+    background-color: rgb(242, 239, 236); /* Change background color */
+    color: black; /* Change text color */
+    font-family: 'Butler', sans-serif;
+    font-size: large;
+    margin-top: 0px; /* Add margin-top for spacing */
+    margin-bottom: 0px; /* Add margin-bottom for spacing */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    display: block; /* Make it a block element */
+    width: 50%; /* Set width */
+}
+
+.note {
+    font-family: Butler;
+    padding-left: 10px;
+}

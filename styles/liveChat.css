@@ -1,0 +1,135 @@
+/* Title of the window */
+.title {
+    margin-left: 45%;
+    font-size: 24px;
+    font-family: 'Butler';
+    color:rgb(79, 37, 92);
+}
+
+/* Live chat window */
+.live-chat-window {
+    height: 70%;
+    width: 65%;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(88, 33, 121);
+    border-radius: 30px;
+    overflow-y: scroll;
+    background-color: rgba(233, 230, 230, 0.274);
+}
+
+/* Formatting user's profile pic */
+.user-pfp img {
+    margin-left: 2rem;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border:inset;
+    border-radius: 100%;
+    
+}
+
+/* Formatting user's messages */
+.user-msg-bubble {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 2rem;
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+    padding: 10px 12px 2px 15px;
+}
+
+/* User message text font */
+.user-text {
+    font-family: 'Butler';
+
+}
+
+/* Timestamp of user messages */
+.user-timestamp {
+    font-size: 10px;
+    margin-left: 5rem;
+    margin-top: 5px;
+}
+
+/* Formatting sender's profile pic */
+.sender-pfp img {
+    margin-left: 80rem;
+    width: 50px;
+    vertical-align: middle;
+    border:outset;
+    border-radius: 100%;
+}
+
+/* Formatting sender's messages */
+.sender-msg-bubble {
+    border: 1px solid rgb(51, 146, 255);
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 48rem;
+    background-color: #1294ff;
+    color: #fff;
+}
+
+/* Timestamp of sender messages */
+.sender-timestamp {
+    font-size: 10px;
+    margin-left: 70rem;
+    margin-top: 5px;
+}
+
+/* Sender message text font */
+.sender-text {
+    font-family: 'Butler';
+    margin: 2rem;
+
+}
+
+/* Window's Footer */
+.input-footer {
+    height: 5%;
+    width: 100%;
+    position: relative;
+    float: left;
+    display:absolute;
+    margin-top: 20px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 30px;
+    /* background-color: rgba(233, 230, 230, 0.274); */
+}
+
+/* Input Textbox for users */
+.msg-box input {
+    margin-top: 1px;
+    /* margin-bottom: 1px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    /* float: initial; */
+    font-family: 'Butler';
+    font-size: 12px;
+    display: inline;
+    padding: 2rem 1.75rem;
+    font-weight: bolder;
+    border: 1px solid #000000;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* Send button for messages */
+.send-btn {
+    margin-top: -49px;
+    margin-left: 95%;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: justify;
+    white-space: nowrap;
+    border-radius: 100%;
+    background-color:rgb(231, 228, 228);
+    font-weight: bolder !important;
+    cursor: pointer;
+    position: absolute;
+}

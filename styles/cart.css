@@ -1,0 +1,95 @@
+* {
+    text-align: left;
+}
+
+body {
+    min-width: 750px;
+    width: auto;
+}
+
+.menu {
+    padding: 0px;
+}
+
+.back {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(131, 77, 133);
+    border-color: black;
+    margin: 1rem;
+    padding: 5px;
+    font-size: 1.25rem;
+    max-width: fit-content;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+#cart-wrapper {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    color: black;
+}
+
+.cart-item {
+    background-color: lightgray;
+    width: 80%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cart-item img {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+}
+
+.dish-name {
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 20%;
+}
+
+.quantity {
+    text-align: center;
+    justify-content: center;
+}
+
+.quantity input{
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.remove-item {
+    height: 75px;
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#place-order {
+    float: right;
+    padding: 20px;
+}
+
+#place-order button {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(131, 77, 133);
+    border-color: black;
+    margin: 1rem;
+    padding: 5px;
+    font-size: 1.25rem;
+    max-width: fit-content;
+    text-decoration: none;
+    color: white;
+}

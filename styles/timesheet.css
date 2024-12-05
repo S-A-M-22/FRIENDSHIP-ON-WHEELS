@@ -1,0 +1,157 @@
+/* General container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Calendar styling */
+.calendar {
+    width: 90%;
+    margin-bottom: 20px;
+    height: fit-content;
+    max-width: 100%;
+    text-align: center;
+}
+
+.calendar-navigation {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.calendar-navigation .button {
+    padding: 10px 20px;
+    /* margin: 0 10px; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button.prev-week {
+    background-color: #7F4E91;
+    color: white;
+}
+
+.button.prev-week:hover {
+    background-color: #492A53;
+    color: white;
+}
+
+.button.next-week {
+    background-color: #7F4E91;
+    color: white;
+}
+
+.button.next-week:hover {
+    background-color: #492A53;
+    color: white;
+}
+
+.weekly-calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.weekly-calendar th,
+.weekly-calendar td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.weekly-calendar th:first-child,
+.weekly-calendar td:first-child {
+    border-right: none;
+}
+
+.weekly-calendar th:not(:first-child),
+.weekly-calendar td:not(:first-child) {
+    width: calc((100% - 70px) / 7); /* Divide the available width equally among 7 days */
+    max-width: calc((100% - 70px) / 7); /* Set maximum width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow if content exceeds cell width */
+    text-overflow: ellipsis; /* Show ellipsis for truncated text */
+}
+
+.weekly-calendar .availability-box {
+    width: 100%; /* Make availability boxes fill the entire cell */
+    height: 30px;
+}
+
+.available {
+    background-color: #056517; 
+}
+
+.available:hover {
+    background-color: #3f8f29;
+}
+
+.unavailable {
+    background-color: #a71c23;
+}
+
+.unavailable:hover {
+    background-color: #c7495c; 
+}
+
+/* Timesheet styling */
+.timesheet {
+    width: 90%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timesheet table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timesheet th,
+.timesheet td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Button styling */
+.timesheet-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button.add {
+    background-color: #66b669;
+    color: white;
+}
+
+.button.add:hover {
+    background-color: #061207;
+    color: white;
+}
+
+.button.update {
+    background-color: #4285f4;
+    color: white;
+}
+
+.button.update:hover {
+    background-color: #0b61a4;
+    color: white;
+}

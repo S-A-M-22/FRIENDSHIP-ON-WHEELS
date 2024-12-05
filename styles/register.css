@@ -1,0 +1,80 @@
+.register_form_body {
+    font-family: butler;
+    font-size: 22px;
+    margin: 10px auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form {
+    background: hsl(207, 43%, 90%);
+    margin-top: 80px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%; /* Adjusted width */
+    max-width: 770px; /* Added max-width */
+}
+
+.registration-form h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.registration-form label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="tel"],
+.registration-form input[type="date"],
+.registration-form textarea,
+.registration-form select {
+    width: calc(100% - 30px); 
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.same_line_fields {
+    width: calc(100% - 30px); 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.same_line_fields label {
+    flex: 0 0 0; 
+    margin: auto 20px; 
+}
+
+.same_line_fields input,
+.same_line_fields select {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #005a87;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #005a8741;
+}
