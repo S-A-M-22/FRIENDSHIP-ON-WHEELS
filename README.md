@@ -1,6 +1,6 @@
 # FRIENDSHIP-ON-WHEELS
 
-***Friendship on Wheels*** is a service looking to provide meals and care to those who need it most in our community. It is our web-based platform designed to connect requesters and volunteers.
+***Friendship on Wheels*** is a service looking to provide meals and care to those who need it most in our community. It is a web-based platform running on localhost - designed to connect requesters and volunteers.
 
 Friendship on Wheels offers a variety of services from volunteers to requesters, including:
 
